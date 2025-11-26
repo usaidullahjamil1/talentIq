@@ -8,4 +8,4 @@ console.log("ENV PORT ", ENV.PORT);
 app.get("/", (req, res) => {
   res.status(200).json({ msg: "Success from api" });
 });
-app.listen(ENV.PORT, () => console.log("Server running on port:", ENV.PORT));
+app.listen(ENV.PORT, () => console.log("Server running on port: ", ENV.PORT));
